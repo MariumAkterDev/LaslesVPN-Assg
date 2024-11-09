@@ -21,7 +21,7 @@ const Plan = () => {
                         {/* ============ sigle card 1 ============================ */}
                         <div className="plan_Single_Card">
                             <div className="card_Img">
-                                <img src="images/Free.png" alt="cardImg" />
+                                <img className='mt-3' src="images/Free.png" alt="cardImg" />
                             </div>
                             <h4>Free Plan</h4>
                             <div className="card_Txt_Shorna">
@@ -41,7 +41,7 @@ const Plan = () => {
                                     <p>No Traffic Logs</p>
                                 </div>
 
-                                <div className="card_Txt mt-3 mb-12">
+                                <div className="card_Txt mb-12">
                                     <FaCheck />
                                     <p>Works on All Devices</p>
                                 </div>
@@ -60,7 +60,7 @@ const Plan = () => {
                             <h4>Standard Plan</h4>
                             <div className="card_Txt_Shorna">
 
-                                <div className="card_Txt mb-8">
+                                <div className="card_Txt">
                                     <FaCheck />
                                     <p>Unlimited Bandwitch</p>
                                 </div>
@@ -80,7 +80,7 @@ const Plan = () => {
                                     <p>Works on All Devices</p>
                                 </div>
 
-                                <div className="card_Txt">
+                                <div className="card_Txt  mb-8">
                                     <FaCheck />
                                     <p>Connect Anyware</p>
                                 </div>
