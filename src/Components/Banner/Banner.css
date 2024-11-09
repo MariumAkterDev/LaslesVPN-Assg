@@ -1,0 +1,47 @@
+.banner{
+    @apply    pt-5 lg:pt-0 flex justify-between flex-wrap md:flex-nowrap flex-col-reverse lg:flex-row
+}
+.bannerh1{
+    @apply text-[#0B132A] text-[25px] lg:text-[50px] font-Rubik font-medium w-full lg:w-[555px] sm:mt-6
+}
+.bannerh1 span{
+    @apply font-bold
+}
+.bannerP{
+    @apply text-[#4F5665] font-Rubik text-[14px] lg:text-[16px] font-normal w-full lg:w-[555px]
+}
+.bannerP span{
+    @apply font-medium 
+}
+.bannerTxt{
+    @apply flex flex-col items-start gap-[20px]
+}
+.bannerBtn{
+    @apply w-[130px] h-[50px]  lg:w-[250px] lg:h-[60px] mt-[10px] lg:mt-[30px] bg-brandColor text-[16px] font-Rubik font-bold text-[#fff] 
+    flex justify-center items-center rounded-[10px] hover:bg-[#FA812F] transition-all duration-150
+    lg:shadow-[0px_16px_45px_0px_#fc8181]  
+}
+.baanerImg img{
+    @apply  w-[300px] lg:w-[612px]
+}
+/* --------------------- banner completed ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

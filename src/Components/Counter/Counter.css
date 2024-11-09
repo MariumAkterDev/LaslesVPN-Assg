@@ -1,0 +1,31 @@
+.counter_Shorna{
+    @apply  pt-[30px] lg:pt-[103px] pb-[30px] lg:pb-[96px]
+}
+.counter{
+    @apply w-full bg-[white] px-[100px] lg:px-[91px] py-[30px] lg:py-[67px] flex flex-wrap gap-7 lg:flex-nowrap lg:gap-0 justify-between items-center 
+    lg:shadow-[rgba(0,_0,_0,_0.1)_0px_40px_60px_-15px]
+}
+.counter_Box{
+    @apply flex items-center gap-[37px]
+}
+.counter_Box_Icon{
+    @apply text-[16px] lg:text-[24px] text-brandColor w-[40px] lg:w-[55px] h-[40px] lg:h-[55px] rounded-full bg-[#FFECEC] flex justify-center items-center
+}
+.counterNumTxt, .icon_number h2{
+    @apply text-[20px] lg:text-[25px] font-Rubik font-bold text-[#0B132A]
+}
+.counter_Box_txt p{
+    @apply text-[16px] lg:text-[20px] font-Rubik font-normal text-[#4F5665]
+}
+.line{
+    @apply hidden lg:block w-[2px] h-[126px] bg-[#EEEFF2] rounded-lg
+}
+
+
+
+
+
+
+
+
+

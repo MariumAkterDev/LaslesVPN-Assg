@@ -1,0 +1,31 @@
+.mobileNav{
+    @apply lg:hidden  py-5 sm:bg-[#F0C1E1] md:bg-[#D0E8C5]
+}
+.mbMenuRow{
+    @apply flex justify-between items-center
+}
+.mbMenuRow img{
+    @apply w-[120px] md:w-[150px]
+}
+.menuIcon{
+    @apply p-[4px] border-[3px] border-[#000] rounded-[3px] text-[#000] text-[14px] md:p-[8px] md:text-[18px] transition-all duration-[0.1s] ease-in-out hover:border-brandColor 
+    hover:shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] active:shadow-none
+}
+.mb_Dp_menu{
+    @apply  bg-[#f4615e]  mt-5 sm:w-[40%] absolute right-0 pb-9 default:mr-[10px] sm:mr-[20px] md:mr-[40px] flex flex-col justify-center items-center gap-5
+}
+.main_Mb_Menu{
+    @apply  w-[100%] text-[#ffffff] font-Rubik font-semibold text-[20px] 
+}
+.main_Mb_Menu li{
+    @apply hover:bg-[#907d7d77] p-5 w-[100%] flex justify-center items-center
+}
+.btn{
+    @apply  w-[100px] h-[47px] flex justify-center items-center text-[18px] font-Rubik font-medium bg-[#ffff0057] rounded-md hover:bg-[transparent] hover:border-[1px]
+}
+
+
+
+
+
+

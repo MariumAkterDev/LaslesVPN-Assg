@@ -1,0 +1,28 @@
+.provideRow{
+    @apply bg-[#ffffff9f] pt-[10px] lg:pt-0 pb-[30px] lg:pb-[126px] flex flex-wrap  md:flex-nowrap justify-center items-end gap-[170px]
+    shadow-[0px_19px_20px_10px_#f7fafc]
+}
+.proImg{
+    @apply hidden md:block md:w-[300px] lg:w-[509px]
+}
+.proTxt{
+    @apply flex flex-col gap-[20px]
+}
+.proTxt_h2{
+    @apply w-[300px] lg:w-[384px] text-[23px] lg:text-[35px] font-medium font-Rubik text-[#0B132A] 
+}
+.proTxt_P{
+    @apply w-[350px] md:w-[428px] text-[16px] font-normal font-Rubik text-[#4F5665] 
+}
+.feature_txt{
+    @apply flex flex-col gap-[15px]
+}
+.f_icon{
+    @apply w-[24px] h-[24px] text-[#2FAB73] flex justify-center items-center
+}
+.f_txt{
+    @apply font-Rubik font-normal text-[14px] text-[#4F5665]
+}
+.feature_Row{
+    @apply flex items-center gap-[10px]
+}

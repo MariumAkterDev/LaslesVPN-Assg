@@ -1,0 +1,18 @@
+.nav{
+    @apply pt-[50px] pb-[93px] hidden lg:block
+}
+.menuRow{
+    @apply flex  justify-between 
+}
+.logo img{
+    @apply w-[149px] 
+}
+.menuItems ul{
+    @apply flex gap-[40px]
+}
+.menuItems ul li a{
+    @apply font-Rubik text-[16px] font-normal text-[#4F5665] transition duration-[0.1s] ease-linear hover:text-brandColor
+}
+.buttons a{
+    @apply font-Rubik text-[16px] font-medium text-[#0B132A] px-[45px] py-[13px] border-brandColor border-[1px] rounded-[50px] border-opacity-0 transition-all duration-[0.2s] ease-linear hover:border-opacity-100 hover:text-brandColor
+}
