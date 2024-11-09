@@ -41,7 +41,7 @@ const Plan = () => {
                                     <p>No Traffic Logs</p>
                                 </div>
 
-                                <div className="card_Txt">
+                                <div className="card_Txt mt-3 mb-12">
                                     <FaCheck />
                                     <p>Works on All Devices</p>
                                 </div>
@@ -60,7 +60,7 @@ const Plan = () => {
                             <h4>Standard Plan</h4>
                             <div className="card_Txt_Shorna">
 
-                                <div className="card_Txt">
+                                <div className="card_Txt mb-8">
                                     <FaCheck />
                                     <p>Unlimited Bandwitch</p>
                                 </div>
