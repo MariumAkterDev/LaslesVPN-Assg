@@ -1,0 +1,48 @@
+.footer_Shorna{
+    @apply pb-[142px] flex items-start gap-[230px] justify-between
+}
+.fLogo{
+    @apply w-[149px]
+}
+.footer_col_1{
+    @apply w-[240px]
+}
+.footer_col_1 p{
+    @apply w-[340px] font-Rubik font-normal text-[16px] text-[#4F5665] mt-[20px] mb-[30px]
+}
+.footer_col_1 p span{
+    @apply font-medium
+}
+.footer_icon{
+    @apply text-brandColor flex gap-[20px] mb-[30px]  
+}
+.footer_icon .icon{
+    @apply w-[36px] h-[36px] bg-[rgb(255,255,255)] p-2 rounded-[50%] 
+    shadow-[rgba(184,_183,_183,_0.5)_0px_9px_30px] transition-all duration-[0.2s] ease-in-out hover:bg-brandColor hover:text-[white]
+}
+.footer_col_1 h6{
+    @apply font-Rubik font-normal text-[16] text-[#AFB5C0]
+}
+.footer_col_1 h6 span{
+    @apply font-medium
+}
+.footer_col_2{
+    @apply flex gap-[200px] 
+}
+.footer_col_2 h4{
+    @apply font-Rubik font-medium text-[18px] text-[#0B132A] mb-[20px]
+}
+.lists{
+    @apply flex flex-col gap-[10px]
+}
+.lists p{
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665] relative w-[fit-content] 
+}
+.lists p::before{
+    @apply content-[""] w-[0] h-[1px] absolute bg-[#4F5665] left-0 bottom-0 transition-all 
+    duration-300 ease-in hover:w-[100%]
+}
+
+
+
+

@@ -33,7 +33,7 @@
     @apply text-[#4F5665]
 }
 .card_Txt_Shorna{
-    @apply flex flex-col gap-[10px]
+    @apply flex flex-col gap-[10px] 
 }
 /* ===========================< plan card bottom >======================== */
 .card_bottom{

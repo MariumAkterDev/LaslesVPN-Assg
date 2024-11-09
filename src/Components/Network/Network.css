@@ -1,0 +1,163 @@
+.network_Txt h2{
+    @apply w-[383px] text-center m-auto font-Rubik font-medium text-[35px] text-[#0B132A]
+}
+.network_Txt p{
+    @apply w-[555px] text-center m-auto font-Rubik font-normal text-[16px] text-[#4F5665] mt-[20px] mb-[156px]
+}
+.network_Txt p span{
+    @apply font-medium
+}
+.network_img{
+    @apply w-[1060px] m-auto mb-[36px] relative 
+}
+/* ======================== map animation starts ============================= */
+.location{
+    @apply absolute 
+}
+.location1{
+    @apply top-[94px] left-[35px];
+    animation: ani 1.5s linear infinite;
+}
+.location2{
+    @apply top-[93px] left-[114px];
+    animation: ani 2s linear infinite;
+}
+.location3{
+    @apply top-[106px] left-[194px];
+    animation: ani 4.3s linear infinite;
+}
+.location4{
+    @apply top-[143px] left-[282px];
+    animation: ani 4s linear infinite;
+}
+.location5{
+    @apply top-[209px] left-[230px];
+    animation: ani 2s linear infinite;
+}
+.location6{
+    @apply top-[257px] left-[189px];
+    animation: ani 1s linear infinite;
+}
+.location7{
+    @apply top-[165px] left-[172px];
+    animation: aniB 3s linear infinite;
+}
+.location8{
+    @apply top-[9px] left-[265px];
+    animation: ani 1.5s linear infinite;
+}
+.location9{
+    @apply top-[32px] left-[343px];
+    animation: ani 2s linear infinite;
+}
+.location10{
+    @apply top-[96px] left-[351px];
+    animation: ani 2.9s linear infinite;
+}
+.location11{
+    @apply top-[26px] left-[412px];
+    animation: ani 1.5s linear infinite;
+}
+.location12{
+    @apply top-[373px] left-[319px];
+    animation: aniB 1.5s linear infinite;
+}
+.location13{
+    @apply top-[312px] left-[288px];
+    animation: ani 2.5s linear infinite;
+}
+.location14{
+    @apply top-[446px] left-[296px];
+    animation: ani 3s linear infinite;
+}
+.location15{
+    @apply top-[360px] left-[368px];
+    animation: ani 2s linear infinite;
+}
+.location16{
+    @apply top-[251px] left-[470px];
+    animation: ani 2s linear infinite;
+}
+.location17{
+    @apply top-[391px] left-[553px];
+    animation: ani 1.5s linear infinite;
+}
+.location18{
+    @apply top-[277px] left-[569px];
+    animation: ani 3s linear infinite;
+}
+.location19{
+    @apply top-[363px] left-[820px];
+    animation: ani 2s linear infinite;
+}
+.location20{
+    @apply top-[413px] left-[843px];
+    animation: ani 1.5s linear infinite;
+}
+.location21{
+    @apply top-[428px] left-[923px];
+    animation: ani 3s linear infinite;
+}
+.location22{
+    @apply top-[106px] left-[516px];
+    animation: ani 3s linear infinite;
+}
+.location23{
+    @apply top-[177px] left-[565px];
+    animation: aniB 1.5s linear infinite;
+}
+.location24{
+    @apply top-[238px] left-[722px];
+    animation: ani 2.9s linear infinite;
+}
+.location25{
+    @apply top-[213px] left-[806px];
+    animation: ani 1.5s linear infinite;
+}
+.location26{
+    @apply top-[96px] left-[651px];
+    animation: ani 3s linear infinite;
+}
+.location27{
+    @apply top-[146px] left-[717px];
+    animation: aniB 1.5s linear infinite;
+}
+.location28{
+    @apply top-[68px] left-[768px];
+    animation: aniB 4s linear infinite;
+}
+.location29{
+    @apply top-[82px] left-[864px];
+    animation: ani 2.9s linear infinite;
+}
+.location30{
+    @apply top-[83px] left-[1004px];
+    animation: aniB 1.5s linear infinite;
+}
+
+@keyframes ani{
+    0%{
+        scale: 0.8;
+    }
+    50%{
+        scale: 1.8;
+    }
+    100%{
+        scale: 1;
+    }
+}
+@keyframes aniB{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+/* -------------------------- X map animation ends X ----------------------------- */
+.company_Img{
+    @apply flex justify-between items-center pb-[50px]
+}

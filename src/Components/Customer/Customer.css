@@ -1,0 +1,6 @@
+.cus_Txt h2{
+    @apply font-Rubik font-medium text-[35px] text-[#0B132A] m-auto w-[448px] text-center mb-[20px]
+}
+.cus_Txt p{
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665] m-auto w-[555px] text-center mb-[60px]
+}
