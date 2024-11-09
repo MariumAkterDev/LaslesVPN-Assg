@@ -37,6 +37,9 @@
 .card_bottom h3{
     @apply font-Rubik font-medium text-[25px] text-[#0B132A]
 }
+.card_bottom h3 span{
+    @apply font-normal text-[#4F5665]
+}
 .card_bottom_Btn{
     @apply w-[178px] h-[45px] border-[2px] rounded-[50px] bg-[transparent] font-Rubik font-bold 
     text-[16px] text-brandColor transition-all duration-[0.2s] ease-in-out active:scale-[0.94]

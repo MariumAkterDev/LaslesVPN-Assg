@@ -57,7 +57,7 @@ const Plan = () => {
                             <div className="card_Img">
                                 <img src="images/Free.png" alt="cardImg" />
                             </div>
-                            <h4>Free Plan</h4>
+                            <h4>Standard Plan</h4>
                             <div className="card_Txt_Shorna">
 
                                 <div className="card_Txt">
@@ -79,9 +79,14 @@ const Plan = () => {
                                     <FaCheck />
                                     <p>Works on All Devices</p>
                                 </div>
+
+                                <div className="card_Txt">
+                                    <FaCheck />
+                                    <p>Connect Anyware</p>
+                                </div>
                             </div>
                             <div className="card_bottom">
-                                <h3>Free</h3>
+                                <h3>$9 <span>/ mo</span></h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
                         </div>
@@ -91,7 +96,7 @@ const Plan = () => {
                             <div className="card_Img">
                                 <img src="images/Free.png" alt="cardImg" />
                             </div>
-                            <h4>Free Plan</h4>
+                            <h4>Premium Plan</h4>
                             <div className="card_Txt_Shorna">
 
                                 <div className="card_Txt">
@@ -113,9 +118,19 @@ const Plan = () => {
                                     <FaCheck />
                                     <p>Works on All Devices</p>
                                 </div>
+
+                                <div className="card_Txt">
+                                    <FaCheck />
+                                    <p>Connect Anyware</p>
+                                </div>
+
+                                <div className="card_Txt">
+                                    <FaCheck />
+                                    <p>Get New Features</p>
+                                </div>
                             </div>
                             <div className="card_bottom">
-                                <h3>Free</h3>
+                                <h3>$12 <span>/ mo</span></h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
                         </div>
