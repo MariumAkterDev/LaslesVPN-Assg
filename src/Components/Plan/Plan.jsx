@@ -21,7 +21,7 @@ const Plan = () => {
                         {/* ============ sigle card 1 ============================ */}
                         <div className="plan_Single_Card">
                             <div className="card_Img">
-                                <img className='mt-3' src="images/Free.png" alt="cardImg" />
+                                <img className='' src="images/Free.png" alt="cardImg" />
                             </div>
                             <h4>Free Plan</h4>
                             <div className="card_Txt_Shorna">
@@ -41,12 +41,12 @@ const Plan = () => {
                                     <p>No Traffic Logs</p>
                                 </div>
 
-                                <div className="card_Txt mb-12">
+                                <div className="card_Txt ">
                                     <FaCheck />
                                     <p>Works on All Devices</p>
                                 </div>
                             </div>
-                            <div className="card_bottom">
+                            <div className="card_bottom !mt-[160px]">
                                 <h3>Free</h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
@@ -80,12 +80,12 @@ const Plan = () => {
                                     <p>Works on All Devices</p>
                                 </div>
 
-                                <div className="card_Txt  mb-8">
+                                <div className="card_Txt">
                                     <FaCheck />
                                     <p>Connect Anyware</p>
                                 </div>
                             </div>
-                            <div className="card_bottom">
+                            <div className="card_bottom !mt-[130px]">
                                 <h3>$9 <span>/ mo</span></h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
