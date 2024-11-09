@@ -1,5 +1,5 @@
 .Plan_Row{
-    @apply pt-[10px] lg:pt-[80px] pb-[150px] flex flex-col items-center justify-center 
+    @apply pt-[10px] lg:pt-[80px] pb-[50px] lg:pb-[150px] flex flex-col items-center justify-center 
 }
 .plan_Row_Txt h3{
     @apply  font-Rubik font-medium text-[24px] lg:text-[35px] text-[#0B132A]
@@ -9,14 +9,14 @@
     text-center flex flex-col gap-[8px] md:gap-[20px] 
 }
 .card_Img img{
-    @apply w-[145px]
+    @apply hidden md:block w-[145px]
 }
 .plan_Cards{
-    @apply w-full flex justify-center items-center gap-[50px]
+    @apply w-full flex flex-wrap lg:flex-nowrap justify-center items-center gap-[20px] lg:gap-[50px]
 }
-/* ========== plan single card ============================ */
+/* ====================< plan single card >============================ */
 .plan_Single_Card{
-    @apply pt-[80px] pb-[50px] px-[70px] border-[2px] border-[#DDDDDD] rounded-[10px] flex flex-col 
+    @apply pt-[20px] lg:pt-[80px] pb-[50px] px-[70px] border-[2px] border-[#DDDDDD] rounded-[10px] flex flex-col 
     justify-center items-center gap-[20px] transition-all duration-300 ease-in-out hover:border-brandColor
 }
 .plan_Single_Card:hover .card_bottom_Btn{
@@ -35,9 +35,9 @@
 .card_Txt_Shorna{
     @apply flex flex-col gap-[10px]
 }
-/* =========================== plan card bottom ======================== */
+/* ===========================< plan card bottom >======================== */
 .card_bottom{
-    @apply flex flex-col items-center gap-[20px] mt-[100px]
+    @apply flex flex-col items-center gap-[20px] mt-[10px] lg:mt-[100px]
 }
 .card_bottom h3{
     @apply font-Rubik font-medium text-[25px] text-[#0B132A]

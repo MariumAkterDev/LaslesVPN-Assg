@@ -46,7 +46,7 @@ const Plan = () => {
                                     <p>Works on All Devices</p>
                                 </div>
                             </div>
-                            <div className="card_bottom !mt-[160px]">
+                            <div className="card_bottom !mt-[42px] lg:!mt-[160px]">
                                 <h3>Free</h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
@@ -85,7 +85,7 @@ const Plan = () => {
                                     <p>Connect Anyware</p>
                                 </div>
                             </div>
-                            <div className="card_bottom !mt-[130px]">
+                            <div className="card_bottom  lg:!mt-[130px]">
                                 <h3>$9 <span>/ mo</span></h3>
                                 <button className='card_bottom_Btn'><Link to="">Select</Link></button>
                             </div>
