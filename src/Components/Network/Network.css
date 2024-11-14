@@ -1,3 +1,6 @@
+.network_Shorna{
+    
+}
 .network_Txt h2{
     @apply w-[383px] text-center m-auto font-Rubik font-medium text-[35px] text-[#0B132A]
 }
@@ -159,5 +162,5 @@
 }
 /* -------------------------- X map animation ends X ----------------------------- */
 .company_Img{
-    @apply flex justify-between items-center pb-[50px]
+    @apply flex justify-around items-center pb-[50px]
 }

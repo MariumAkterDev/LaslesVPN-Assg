@@ -1,0 +1,20 @@
+.Mother{
+    @apply w-[1140px] rounded-[10px] absolute z-30 top-[414%] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
+}
+.subsShorna{
+    @apply px-[70px] py-[59px] bg-[DDDDDD] rounded-[10px] flex items-center justify-between 
+}
+.subsTxt{
+    @apply w-[410px]
+}
+.subsTxt p {
+    @apply  text-[16px] text-[#4F5665] font-Rubik font-normal
+}
+.subsTxt h2{
+    @apply w-[372px]  text-[35px] text-[#0B132A] font-Rubik font-medium mb-[20px]
+}
+.subsBtn button{
+    @apply w-[250px] h-[60px] flex justify-center items-center bg-brandColor rounded-[10px] 
+    text-[white] font-Rubik font-bold text-[16px] shadow-[0_20px_50px_rgba(240,_10,_10,_0.4)] 
+    active:shadow-[0_17px_40px_rgba(240,_10,_10,_0.4)]  active:scale-[0.96]
+}

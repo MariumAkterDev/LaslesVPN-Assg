@@ -1,5 +1,5 @@
 .footer_Shorna{
-    @apply pb-[142px] flex items-start gap-[230px] justify-between
+    @apply mt-[210px] pb-[142px] flex items-start gap-[230px] justify-between
 }
 .fLogo{
     @apply w-[149px]

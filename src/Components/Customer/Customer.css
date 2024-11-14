@@ -1,6 +1,51 @@
+.customer_Shorna{
+    @apply sm:w-[640px] md:w-[768px] lg:w-[1300px] m-auto bg-[white] pb-[1px]
+}
 .cus_Txt h2{
     @apply font-Rubik font-medium text-[35px] text-[#0B132A] m-auto w-[448px] text-center mb-[20px]
 }
 .cus_Txt p{
     @apply font-Rubik font-normal text-[16px] text-[#4F5665] m-auto w-[555px] text-center mb-[60px]
 }
+/* =========== rivew part starts ==================== */
+.review{
+    @apply mb-[184px] relative
+}
+.reviewImg{
+    @apply w-[400px] h-[230px] border-[2px] border-brandColor rounded-[10px] border-opacity-0
+}
+.reviewImg img{
+    @apply w-full h-full bg-[white] rounded-[10px]
+}
+/* ========== doottttssssss ============ */
+.slick-dots{
+    @apply !flex gap-[15px] mt-[82px]
+}
+.slick-dots li button{
+    @apply bg-[#DDE0E4] text-[0] w-[15px] h-[15px] rounded-full
+}
+.slick-dots .slick-active button{
+    @apply bg-brandColor
+}
+.slick-current .reviewImg{
+    @apply border-opacity-[1] 
+}
+/* ============= arrow ================= */
+.slick-arrow{
+    @apply text-[45px] p-[8px] border-[2px]  text-brandColor border-brandColor rounded-full 
+    absolute top-[91%] z-30 transition-all duration-500 hover:bg-brandColor hover:text-[white]
+}
+.slick-prev{
+    @apply  right-[230px] 
+}
+.slick-next{
+    @apply   right-[160px] 
+}
+
+
+
+
+
+
+
+/* -------------- review part ends ------------ */

@@ -7,6 +7,7 @@ import Plan from '../Components/Plan/Plan'
 import Network from '../Components/Network/Network'
 import Customer from '../Components/Customer/Customer'
 import Footer from '../Components/Footer/Footer'
+import SubscribeBtn from '../Components/SubscribeBtn/SubscribeBtn'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
        <Plan/>
        <Network/>
        <Customer/>
+       <SubscribeBtn/>
        <Footer/>
 
     </>
